@@ -1,0 +1,140 @@
+.ihp-config {
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  color: #333;
+  max-width: 900px;
+  padding: 16px 24px;
+}
+
+.ihp-config h1 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.ihp-description {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.ihp-description code {
+  background: #f0f0f0;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-family: Consolas, monospace;
+}
+
+.ihp-error {
+  color: #d32f2f;
+  background: #fdecea;
+  border: 1px solid #f5c6cb;
+  padding: 10px 14px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+
+.ihp-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.ihp-row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background: #fafafa;
+}
+
+.ihp-field-select {
+  flex: 0 0 220px;
+  font-size: 13px;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.ihp-note-textarea {
+  flex: 1 1 auto;
+  min-height: 48px;
+  box-sizing: border-box;
+  resize: vertical;
+  font-family: inherit;
+  font-size: 13px;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.ihp-remove-row-button {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #d32f2f;
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.ihp-remove-row-button:hover {
+  background: #fdecea;
+}
+
+.ihp-btn-add {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding: 8px 16px;
+  font-size: 13px;
+  border-radius: 4px;
+  border: 1px dashed #3498db;
+  background: #fff;
+  color: #3498db;
+  cursor: pointer;
+}
+
+.ihp-btn-add:hover {
+  background: #eef6fc;
+}
+
+.ihp-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.ihp-btn-primary,
+.ihp-btn-secondary {
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.ihp-btn-primary {
+  background: #3498db;
+  color: #fff;
+  border-color: #3498db;
+}
+
+.ihp-btn-primary:hover {
+  background: #2d84c1;
+}
+
+.ihp-btn-secondary {
+  background: #fff;
+  color: #555;
+  border-color: #ccc;
+}
+
+.ihp-btn-secondary:hover {
+  background: #f2f2f2;
+}

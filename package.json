@@ -1,0 +1,12 @@
+{
+  "name": "kintone-field-note-popover-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "kintoneのフィールドラベル横に❔アイコンを表示し、クリックで注意事項をポップオーバー表示するプラグイン",
+  "scripts": {
+    "pack": "kintone-plugin-packer plugin --out dist/plugin.zip --ppk private.ppk"
+  },
+  "devDependencies": {
+    "@kintone/plugin-packer": "^9.1.2"
+  }
+}

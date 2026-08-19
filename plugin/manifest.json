@@ -1,0 +1,31 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "ja": "フィールド注意事項ポップオーバー",
+    "en": "Field Note Popover"
+  },
+  "description": {
+    "ja": "各フィールドのラベル横に❔アイコンを表示し、クリックすると入力時の注意事項をポップオーバーで表示します。",
+    "en": "Shows a help icon next to each field label. Clicking it displays field-specific notes in a popover."
+  },
+  "icon": "icon.png",
+  "desktop": {
+    "js": [
+      "js/desktop.js"
+    ],
+    "css": [
+      "css/desktop.css"
+    ]
+  },
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "js/config.js"
+    ],
+    "css": [
+      "css/config.css"
+    ]
+  }
+}
